@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Image Explorer</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style_explorer.css"
+    >
+
+</head>
+
+<body>
+
+    <header class="toolbar">
+
+        <h1>Image Explorer</h1>
+
+        <div class="view-toggle">
+            <button
+                id="visualButton"
+                class="toggle-button active"
+            >
+                Visual Similarity - CLIP
+            </button>
+
+            <button
+                id="depthButton"
+                class="toggle-button"
+            >
+                Visual Similarity - DINO
+            </button>
+
+        </div>
+
+        <div id="imageCount">
+            Loading...
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <div
+            id="canvas"
+            class="canvas"
+        ></div>
+
+    </main>
+
+
+    <div
+        id="info"
+        class="info hidden"
+    ></div>
+
+
+    <script
+        type="module"
+        src="js/explorer.js"
+    ></script>
+
+</body>
+
+</html>
