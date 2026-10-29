@@ -1,4 +1,4 @@
-## MAP website
+## ATLAS website
 To visualize your data it works with the google colab thing
 - Takes as an input the .gpkg file (this type of extension can also be used by QGIS which might be convenient for other uses)
 - Takes as an input a folder of images listed in the .gpkg file
